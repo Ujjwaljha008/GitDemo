@@ -41,9 +41,52 @@ print(s2)
 print(s1.strip() == "Python")
 """
 
+"""
 #replace()
 s1="We are learning Python"
 print(s1)
 print(s1.replace("Python","Java"))
 print(s1.replace("e","E"))
 print(s1.replace("e","E",1))
+"""
+
+"""
+#Counting substring from a string - count()
+#Syntax - string.count(substring)
+s1="We are learning Python. Python is fun."
+s2=" Python"
+print(f"Occurrences of {s2} is {s1.count(s2)}")
+"""
+
+"""
+#Changing case of a string
+# upper(), lower(), title(), capitalize()
+
+s1="Python3.13"
+print(s1.upper())
+print(s1.lower())
+
+s2="We are learning Python. Python is FUN!!"
+print(f"{s1.lower()}\n{s2.upper()}") #-----lower(),upper()
+
+print(f"{s1.title()}\n{s2.title()}") #-----title()
+
+print(f"{s1.capitalize()}\n{s2.capitalize()}") #-----capitalize()
+"""
+
+#Starting and ending of a string
+s1="We are learning Python"
+
+#startswith()
+#string.startswith(substring)
+
+print(s1.startswith("We"))
+
+#endswith()
+#string.endswith(substring)
+print(s1.endswith("Python"))
+
+
+
+
+
